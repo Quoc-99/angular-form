@@ -1,0 +1,56 @@
+<div class="main">
+  <form action="" class="form-control">
+    <h2 class="form-title">Logo</h2>
+    <div class="form-button__switch">
+      <button
+        routerLink="/login"
+        class="button__switch button__switch--active button__switch--left"
+        type="button"
+      >
+        Đăng nhập
+      </button>
+      <button
+        routerLink="/register"
+        class="button__switch button__switch-right"
+        type="button"
+      >
+        Đăng ký
+      </button>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Email</label>
+      <div class="form-group__input">
+        <i class="far fa-envelope form-icons"></i>
+        <input type="email" class="form-input" placeholder="Nhập email" />
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Mật khẩu</label>
+      <div class="form-group__input">
+        <i class="fas fa-lock form-icons"></i>
+        <input type="password" class="form-input" placeholder="Nhập mật khẩu" />
+      </div>
+    </div>
+
+    <a href="#" class="form-forward">Quên mật khẩu?</a>
+
+    <button class="form-button">Đăng nhập</button>
+
+    <p class="form-option">Đăng nhập với?</p>
+
+    <button
+      class="form-button button__google form-button__option"
+      type="button"
+    >
+      <i class="fab fa-google form-button__icon"></i>
+      <p>Google</p>
+    </button>
+    <button
+      class="form-button button__facebook form-button__option"
+      type="button"
+    >
+      <i class="fab fa-facebook form-button__icon"></i>
+      <p>Facebook</p>
+    </button>
+  </form>
+</div>
