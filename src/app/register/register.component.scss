@@ -5,7 +5,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10rem;
   transition: 0.4s ease-in-out;
   // position: absolute;
   // top: 220px;
@@ -22,6 +21,7 @@
   color: #fff;
   border-radius: 10px;
   padding: 5rem 3rem;
+  margin: 2rem 0;
 }
 
 .form-title {
@@ -69,18 +69,18 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 2.2rem;
 }
 
 .form-label {
   font-size: 1.4rem;
   color: #999;
-  margin-bottom: 1rem;
+  margin-bottom: 6px;
 }
 
 .form-group__input {
   width: 100%;
   position: relative;
-  margin-bottom: 2rem;
 }
 
 .form-input {
@@ -135,6 +135,10 @@
   margin-bottom: 2rem;
 }
 
+.form-button__submit:hover {
+  opacity: 0.9;
+}
+
 .form-option {
   text-align: center;
   font-size: 1.3rem;
@@ -162,4 +166,29 @@
 .form-button__icon {
   font-size: 1.8rem;
   margin-right: 1.2rem;
+}
+
+// Message Form
+.is-invalid {
+  border: 1px solid #ff1744;
+}
+
+.text-danger {
+  color: #ff1744;
+  margin-top: 6px;
+}
+
+// Responsive
+@media (max-width: 739px) {
+  .form-control {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    min-width: 300px;
+    border-radius: 0;
+  }
+
+  .button__switch {
+    padding: 1rem 2rem;
+  }
 }
